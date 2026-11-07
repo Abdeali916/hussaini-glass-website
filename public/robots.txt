@@ -1,0 +1,15 @@
+# Hussaini Glass — robots.txt
+# Allows search engines to crawl the public website and blocks the
+# admin area. Robots.txt is a courtesy signal only, not real access
+# control — the admin area is actually protected by Supabase Auth and
+# ProtectedRoute (see src/admin/ProtectedRoute.jsx), so this file is a
+# second layer, not the only one.
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+# Once the site is deployed to its real domain, uncomment the line below
+# and replace with the actual domain (see README, "Google Search Console"):
+# Sitemap: https://YOUR-REAL-DOMAIN/sitemap.xml
