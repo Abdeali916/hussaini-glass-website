@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Hussaini Glass — sitemap.xml
-
-  This site is currently a single public page (the homepage — Services,
-  Gallery, About etc. are all sections on "/", not separate routes), so
-  there is only one real URL to list. /admin and its sub-pages are
-  deliberately excluded — they require sign-in and aren't meant to be
-  indexed.
-
-  REPLACE "https://YOUR-REAL-DOMAIN" BELOW with the actual production
-  domain once the site is deployed — do this before submitting the
-  sitemap to Google Search Console. See README.md, "Google Search
-  Console", for the full submission steps.
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR-REAL-DOMAIN/</loc>
+    <loc>https://hussainiglass.vercel.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
