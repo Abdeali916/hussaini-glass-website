@@ -6,4 +6,4 @@ Allow: /
 Disallow: /admin
 Disallow: /admin/
 
-Sitemap: https://hussainiglass.vercel.app/sitemap.xml
+Sitemap: https://hussainiglass.in/sitemap.xml
